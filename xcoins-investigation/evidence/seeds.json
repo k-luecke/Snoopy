@@ -1,0 +1,52 @@
+{
+  "description": "Seed transactions for the xCoins.io on-chain reconstruction. All fields under 'claimed' come from the user's contemporaneous wallet records and are UNVERIFIED until validated against public blockchain data. 'verified' blocks are filled only from raw API responses cached under raw/transactions/.",
+  "seeds": [
+    {
+      "seed_id": "seed-jan2017",
+      "priority": "high",
+      "claimed": {
+        "txid": "008d70dbf29d1f009fee24d075b181ac34232c11e4834cae00c2d862f15ba2e1",
+        "date": "2017-01-06",
+        "amount_btc": 0.055907,
+        "approx_usd_historical": 49.76,
+        "destination_address": "1ATE8wW11ULvcksZYDnWf74SH5SKdXbAwo",
+        "source": "user contemporaneous wallet record",
+        "believed_to_be": "xCoins deposit (candidate, unconfirmed)"
+      },
+      "verified": null,
+      "verification_status": "BLOCKED - all public blockchain explorer APIs denied by session egress policy as of 2026-08-27; see reports/crawl-log.md"
+    },
+    {
+      "seed_id": "seed-feb2017",
+      "priority": "high",
+      "claimed": {
+        "txid": "3f96f393166086a8f098226778e8bbd67ada8c022c08e7708c64fd07f62b663d",
+        "date": "2017-02-15",
+        "amount_btc": 0.04912781,
+        "approx_usd_historical": 49.82,
+        "destination_address": "1LC7zdvLpQD3DZdE2eZdRnj7nMgiYActTk",
+        "source": "user contemporaneous wallet record",
+        "believed_to_be": "xCoins deposit (candidate, unconfirmed)"
+      },
+      "verified": null,
+      "verification_status": "BLOCKED - all public blockchain explorer APIs denied by session egress policy as of 2026-08-27; see reports/crawl-log.md"
+    },
+    {
+      "seed_id": "seed-apr2017-control",
+      "priority": "low",
+      "role": "comparison/control - do NOT initially treat as xCoins",
+      "claimed": {
+        "txid": "dcb28ba5b2f5f657414a5e0c1ea1219711b038f8dab90de5c70d06bcf3fa00da",
+        "date": "2017-04-18",
+        "amount_btc": 0.06359968,
+        "approx_usd_historical": 76.61,
+        "destination_address": "13kUu7RU9WF9UGQQoRM7QRbzTJaCFLfv6K",
+        "wallet_note": "check",
+        "source": "user contemporaneous wallet record",
+        "believed_to_be": "unknown; control candidate"
+      },
+      "verified": null,
+      "verification_status": "BLOCKED - all public blockchain explorer APIs denied by session egress policy as of 2026-08-27; see reports/crawl-log.md"
+    }
+  ]
+}

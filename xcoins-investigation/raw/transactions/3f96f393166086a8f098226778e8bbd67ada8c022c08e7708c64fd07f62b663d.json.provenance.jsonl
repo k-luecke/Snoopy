@@ -1,0 +1,2 @@
+{"error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))", "http_status": null, "retrieved_at": "2026-08-27T21:14:34Z", "url": "https://mempool.space/api/tx/3f96f393166086a8f098226778e8bbd67ada8c022c08e7708c64fd07f62b663d"}
+{"error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))", "http_status": null, "retrieved_at": "2026-08-27T21:14:35Z", "url": "https://blockstream.info/api/tx/3f96f393166086a8f098226778e8bbd67ada8c022c08e7708c64fd07f62b663d"}
